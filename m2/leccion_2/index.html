@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- CONTENIDO QUE ES PARA EL NAVEGADOR -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección N° 2 - M2</title>
+
+    <meta name="description" content="Contenido de estudio del módulo 2">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nelson Ramírez">
+</head>
+
+<!--AQUÍ VA EL CONTENIDO QUE VERÁ EL USUARIO-->
+<body>
+
+    <!-- AQUÍ VA LA INSTRODUCCIÓN SOBRE EL TEMA A TRATAR -->
+    <header>
+        <h1>CONTENIDOS RELACIONADOS A HTML</h1>
+    </header>
+    
+
+    <!-- AQUÍ VAN LOS ENLACES PARA REDIRECCIONAR A LAS DIFERENTES SECCIONES, PAGÍNAS, ETC. -->
+    <nav>
+        <ul>
+            <li>
+                <a href="">Inicio</a>
+            </li>
+            <li>
+                <a href="#imagenes">Imágenes</a>
+            </li>
+            <li>
+                <a href="#tablas">Tablas</a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank">Sigue aprendiendo</a>
+            </li>
+
+            
+        </ul>
+    </nav>
+
+
+    <!-- CONTENIDO PRINCIPAL DE LA LECCIÓN 2 -->
+    <main>
+
+        <section id="imagenes">
+            <h2>Imágenes</h2>
+
+            <article>
+                <h3>Ejemplo Imágenes internas</h3>
+                <img 
+                    src="./assets/img/paisaje_interno.jpg" 
+                    alt="Paisaje interno"
+                    width="100"
+                    height="100"
+                >
+            </article>
+
+            <article>
+                <h3>Ejemplo Imágenes externas</h3>
+
+                <img src="https://picsum.photos/200/300" alt="Paisaje externo aleatorio">
+
+            </article>
+
+        </section>
+
+        <section id="listas">
+            <h3>Tipos de listas:</h3>
+
+            <div>
+                <h4>Listas de descripción</h4>
+
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Lenguaje de marcado de hipertexto.</dd>
+                    <dt>CSS</dt>
+                    <dd>Hojas de estilo en cascada.</dd>
+                </dl> 
+            </div>
+
+            <div>
+                <h4>Listas ordenadas - Extra</h4>
+                <ol type="a" start="5">
+                    <li>Carlos</li>
+                    <li>Pedro</li>
+                    <li>Juan</li>
+                </ol>
+            </div>
+
+            <div>
+                <h4>Listas anidadas</h4>
+
+                <ol>
+                    <li>Fundamentos Frontend
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                    </li>
+                    <li>Fundamentos Backend
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Sequelize</li>
+                            <li>Bases de datos</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="tablas">
+            <h2>Tablas</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>columna 1</th>
+                        <th>columna 2</th>
+                        <th>Columna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>dato 1</td>
+                        <td>dato 2</td>
+                        <td>dato 3</td>
+                    </tr>
+                    <tr>
+                        <td>dato 4</td>
+                        <td>dato 5</td>
+                        <td>dato 6</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formularios">
+            <h2>elementos de un formulario contacto</h2>
+
+            <form action="">
+                <label for="contacto_nombre">Nombre:</label>
+                <input type="text" name="nombre" id="contacto_nombre" required>
+                <hr>
+                <label for="contacto_edad">Edad:</label>
+                <input type="number" name="edad" id="contacto_edad" min="18" max="120" required>
+                <hr>
+                <input type="submit" value="Enviar datos">
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- AQUÍ VA TODO LO RELACIONADO AL PIE DE PÁGINA, COMO LA INFORMACIÓN DE CONTACTO. -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
+
