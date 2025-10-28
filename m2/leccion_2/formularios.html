@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Ejemplos</title>
+
+    <base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+    <header>
+        <h1>Ejemplos de formularios</h1>
+    </header>
+    <nav>
+        <a href="/">Volver</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Primer ejemplo - formulario de reclamos</h2>
+
+            <div>
+                <form action="/reclamos.html" method="get">
+                    <label for="fnombre">Ingresa tu nombre:</label>
+                    <br>
+                    <input type="text" name="fnombre" id="fnombre" required>
+                    <br>
+                    <label for="femail">Ingresa tu email:</label>
+                    <br>
+                    <input type="email" name="femail" id="femail" required>
+                    <br>
+                    <label for="freclamo">Deja tu reclamo:</label>
+                    <br>
+                    <textarea name="freclamo" id="freclamo" required></textarea>
+                    <br>
+                    <div>
+                        <hr>
+                        <p>Cuál es el motivo de tu reclamo: </p>
+                        <input type="radio" id="f_ventas" name="f_tipo_reclamo" value="ventas">
+                        <label for="f_ventas">Ventas</label><br>
+                        <input type="radio" id="f_gerencia" name="f_tipo_reclamo" value="gerencia">
+                        <label for="f_gerencia">Gerencia</label><br>
+                        <input type="radio" id="f_administracion" name="f_tipo_reclamo" value="admistracion">
+                        <label for="f_administracion">Administración</label>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Elige los productos que tienes:</p>
+                        <input type="checkbox" id="cuenta_ahorro" name="cuenta_ahorro" value="Ahorro">
+                        <label for="cuenta_ahorro"> Tengo Cuenta de ahorro</label><br>
+                        <input type="checkbox" id="cuenta_corriente" name="cuenta_corriente" value="Corriente">
+                        <label for="cuenta_corriente"> Tengo Cuenta Corriente</label><br>
+                        <input type="checkbox" id="tarjeta_credito" name="tarjeta_credito" value="Credito">
+                        <label for="tarjeta_credito"> Tengo Tarjeta de Crédito</label>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="f_sucursal">Elige la sucursal de reclamo:</label>
+                        <br>
+                        <select id="f_sucursal" name="f_sucursal" size="1">
+                            <option value="">Elige una opción...</option>
+                            <option value="sucursal1">Sucursal N° 1</option>
+                            <option value="sucursal2">Sucursal N° 2</option>
+                            <option value="sucursal3">Sucursal N° 3</option>
+                            <option value="sucursal4">Sucursal N° 4</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <br>
+                        <input type="submit" value="Enviar reclamo">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        
+        <section>
+            <h2>Sigue aprendiendo sobre formularios en w3school.</h2>
+            <ul>
+                <li>
+                    <a href="html/html_forms_attributes.asp">Atributos de formulario</a>
+                </li>
+                <li>
+                    <a href="html/html_form_elements.asp">Elementos de formulario</a>
+                </li>
+                <li>
+                    <a href="https://www.google.cl" target="_self">Google</a>
+                </li>
+                <li>
+                    <a href="http://localhost:53522/index.html" target="_self">volver</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+</body>
+</html>
