@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+}
+/* EJEMPLO DE SELECTOR POR CLASE */
+.subtitulo {
+    color:blue;
+    background-color: yellow; /*color de fondo que se aplica a la caja */
+}
+
+/* EJEMPLO DE SELECTOR POR ID */
+#unico {
+    color:red; /*color de la fuente */
+    font-weight: 800; /*grosor de la fuente */
+    font-size: 20px; /*tamaño de la fuente */
+}
