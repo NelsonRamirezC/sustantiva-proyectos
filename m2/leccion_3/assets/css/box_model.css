@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.caja-padre {
+    background-color: blue;
+}
+
+.caja-hijo {
+    height: 100px;
+    width: 100px;
+}
+
+#hijo1 {
+    background-color: green;
+}
+
+#hijo2 {
+    background-color: red;
+}
+
+.caja-padre2 {
+    background-color: aquamarine;
+    /* padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+
+    /* aplica relleno en todas las direcciones */
+    /* padding: 50px;  */
+
+    /* aplica 50px top y bottom / 30px left - right */
+    /* padding: 50px 30px; */
+
+    /* aplica 20px top, 50px right, 50px left, 30px bottom */
+    /* padding: 20px 50px 30px; */
+
+    /* Aplica relleno en el sentido horario: top, right, bottom, left */
+    padding: 10px 20px 30px 40px;
+    border: 5px solid black;
+
+}
+
+.caja-padre3 {
+    background-color: orange;
+}
+
+
+.caja-padre3 .caja-hijo {
+    background-color: rgb(222, 31, 31);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.caja-padre4 a{
+    /* margin-left: 15px; */
+    padding: 20px;
+    margin: 10px;
+    background-color: grey;
+}
+
+
+h1 {
+    text-align:center;
+}
