@@ -1,0 +1,123 @@
+/* INICIO RESET DE ESTILOS POR DEFECTO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom:20px;
+}
+/* FIN RESET DE ESTILOS POR DEFECTO */
+
+
+
+/* INICIO ESTILOS base */
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600; 
+}
+
+p, li {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+/* FIN ESTILOS BASE */
+
+
+
+.centrado {
+    text-align: center;
+}
+
+#titulo-principal {
+    color:blue;
+}
+
+.subtitulos {
+    padding: 20px;
+}
+
+.encabezado-documento{
+    background-color: bisque;
+    padding: 80px 0px;
+}
+
+main {
+    display:flex;
+}
+
+
+#seccion-datos {
+    width: 25%;
+    background-color: aquamarine;
+    padding: 25px 15px 25px 35px;
+}
+
+#seccion-datos ul > li{
+    margin: 15px 0;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.contenedor-imagen img{
+    width: 75%;
+}
+
+#seccion-principal {    
+    width: 75%;
+    padding-right: 60px;
+    background-color: azure;
+}
+
+#descripcion-libro {    
+    width: 100%;
+    padding: 25px 15px 25px 35px;
+    
+}
+
+#contenido-libro {    
+    width: 100%;
+    padding: 25px 15px 25px 35px;
+}
+
+
+#contenido-libro-textos {
+    width: 100%;
+    display:flex;
+}
+
+.caja {
+    width: 33.33%;
+    padding: 20px;
+}
+
+/* #caja-texto1{
+    background-color: cadetblue;
+}
+
+#caja-texto2{
+    background-color: violet;
+}
+
+#caja-texto3{
+    background-color: blue;
+} */
