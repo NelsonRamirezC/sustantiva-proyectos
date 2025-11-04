@@ -13,7 +13,9 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="./assets/css/propia.css">
+    <link rel="stylesheet" href="./assets/css/propia.css">
+
+    <script defer src="./assets/js/script.js"></script>
 </head>
 
 <body>
@@ -66,7 +68,11 @@
                             <p class="card-text">
                                 Descripción producto 1
                             </p>
-                            <a href="#" class="btn btn-primary">Ver más</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Quedan 5 productos de stock!">
+                                Ver más
+                            </a>
+
                         </div>
                     </div>
                     <!-- FIN TARJETA PRODUCTO -->
@@ -117,6 +123,76 @@
                     <!-- FIN TARJETA PRODUCTO -->
                 </div>
             </div>
+        </section>
+
+        <section id="seccion-tablas" class="py-3">
+
+            <h2 class="text-center py-3">Ejemplo tablas</h2>
+
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Descuento</th>
+                            <th scope="col">Precio final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Producto 1</td>
+                            <td>$5.000.-</td>
+                            <td>$500.-</td>
+                            <td>$4.500.-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Producto 2</td>
+                            <td>$5.500.-</td>
+                            <td>$0.-</td>
+                            <td>$5.500.-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section id="seccion-imagenes" class="py-3">
+            <h2 class="text-center py-3">Cenntrado de imágenes con bootstrap / flex </h2>
+
+            <div id="contenedor-imagen" class="bg-info d-flex justify-content-center align-items-center">
+                <img src="./assets/img/producto3.jpg" alt="Producto 3">
+            </div>
+
+        </section>
+
+        <section id="seccion-carrusel">
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/producto1.jpg" class="d-block w-100" alt="Producto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/producto2.jpg" class="d-block w-100" alt="Producto 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
         </section>
 
     </main>

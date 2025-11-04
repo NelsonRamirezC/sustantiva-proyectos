@@ -1,3 +1,19 @@
 #seccion-productos .card img {
     aspect-ratio: 53/35;
 }
+
+
+.custom-tooltip {
+    --bs-tooltip-bg: red;
+    --bs-tooltip-color: white;
+}
+
+
+#contenedor-imagen{
+    height: 500px;
+}
+#contenedor-imagen img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
